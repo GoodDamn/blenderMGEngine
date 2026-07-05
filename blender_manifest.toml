@@ -1,0 +1,34 @@
+schema_version = "1.0.0"
+
+id = "mgengine_format"
+version = "1.0.0"
+name = "MGEngine file format"
+tagline = "Import-Export MGEngine 3D models"
+maintainer = "GoodDamn <https://github.com/GoodDamn>"
+type = "add-on"
+
+#website = "https://github.com/GoodDamn/blenderMGEngine"
+
+tags = ["Import-Export"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:MIT",
+]
+
+copyright = [
+   "2026 GoodDamn",
+]
+
+[permissions]
+files = "Import-Export MGEngine 3D model files"
+
+# [build]
+# # These are the default build excluded patterns.
+# # You only need to edit them if you want different options.
+# paths_exclude_pattern = [
+#   "__pycache__/",
+#   "/.git/",
+#   "/*.zip",
+# ]
